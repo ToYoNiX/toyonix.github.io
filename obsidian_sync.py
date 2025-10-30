@@ -33,7 +33,12 @@ def ensure_dir(path):
 def convert_embed(filename):
     # Remove resizing or alias (e.g. file.png|200 → file.png)
     clean = filename.split("|")[0]
-    return f"![{clean}](/img/{clean})"  # Edit if your Hugo path differs
+    return f"![{clean}](img/{clean})"  # Edit if your Hugo path differs
+
+def normalize_filename(filename):
+    name, ext = os.path.splitext(filename)
+    name = name.replace(" ", "-").lower()
+    return name + ext.lower()
 
 def process_markdown_file(src, dst):
     with open(src, "r", encoding="utf-8") as f:
@@ -42,17 +47,20 @@ def process_markdown_file(src, dst):
     images_found = re.findall(IMAGE_PATTERN, content)
 
     for img in images_found:
-        img_file = img.split("|")[0]  # Strip any attributes
+        img_file = img.split("|")[0]
+        normalized = normalize_filename(img_file)
+
         source_img = os.path.join(OBSIDIAN_ATTACHMENTS, img_file)
+        dest_img = os.path.join(HUGO_IMAGES, normalized)
 
         if os.path.exists(source_img):
             ensure_dir(HUGO_IMAGES)
-            shutil.copy2(source_img, HUGO_IMAGES)
-            print(f"Copied image: {img_file}")
+            shutil.copy2(source_img, dest_img)
+            print(f"Copied image: {img_file} → {normalized}")
         else:
-            print(f"⚠️ Image not found in attachments: {img_file}")
+            print(f"⚠️ Image not found: {img_file}")
 
-        content = content.replace(f"![[{img}]]", convert_embed(img_file))
+        content = content.replace(f"![[{img}]]", convert_embed(normalized))
 
     with open(dst, "w", encoding="utf-8") as f:
         f.write(content)
