@@ -1,1 +1,8 @@
-Hi! I’m Assem, a final-year Computer Science student and backend engineer passionate about DevOps, Linux, and open-source tech. I enjoy building efficient systems, exploring new tools, and sharing knowledge through communities and collaboration. I’m constantly learning through hands-on projects and contributions as I work toward becoming a skilled software engineer who solves real-world challenges.
+
+[Portfolio](/portfolio) - [Blog](/blog)
+
+👋 Hey there! Welcome to my corner of the internet.
+
+I’m a final-year Computer Science student and a backend engineer who’s driven by goals, curiosity, and hands-on learning. I love working with DevOps tools, Linux environments, and open-source technologies — especially when I get to turn ideas into real projects.
+
+Here, I share what I build, break, fix, and discover along the way — from personal experiments to solving real-world engineering challenges.
