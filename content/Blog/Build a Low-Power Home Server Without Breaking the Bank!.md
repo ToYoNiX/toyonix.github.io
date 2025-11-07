@@ -1,3 +1,8 @@
+---
+title: Build a Low-Power Home Server Without Breaking the Bank!
+date: 2025-11-07
+---
+
 # A Bit of History — My Home Lab Journey
 
 I started my home-lab journey in **January 2025** (about 11 months before writing this article). Saying that I learned a lot is a huge understatement. I had been interested in home servers long before that, but that’s when I finally took action.
