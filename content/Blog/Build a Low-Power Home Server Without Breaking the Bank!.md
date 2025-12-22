@@ -1,7 +1,6 @@
 ---
 title: Build a Low-Power Home Server Without Breaking the Bank!
 date: 2025-11-07
-draft: true
 ---
 
 # A Bit of History — My Home Lab Journey
