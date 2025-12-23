@@ -18,6 +18,8 @@ I launched a few services on my main PC, and at first, everything worked flawles
 
 There was one major flaw in the plan: everything ran on my power-hungry **desktop PC**. That meant leaving it on around the clock, burning through electricity and money at an alarming rate. To fix that, I built a **VPN router**—a simple router that also joined my overlay VPN. It used only a few watts of power and still allowed me to turn my PC on remotely with **Wake-on-LAN** or shut it down using SSH. Power savings improved dramatically, and I enjoyed the comfort of remote access without leaving a full desktop running 24/7. But another monster was waiting in the shadows.
 
+![pasted-image-20251223063518.png](img/pasted-image-20251223063518.png)
+
 ---
 
 ## Power Cuts: The True Villain
@@ -30,11 +32,15 @@ Egyptian power loves drama. A flicker here, a blackout there, and no warning at 
 
 The solution seemed straightforward: buy a UPS. With that upgrade, sudden outages stopped causing data corruption and WOL became reliable again—at least technically. The problem was that my desktop drained the UPS unbelievably fast. I was lucky to get **five minutes** of battery life out of it, while my router alone could last almost **three hours**. The imbalance made it clear that the PC was the culprit. I even briefly entertained the idea of building a DIY shutdown controller powered by batteries—an interesting idea, but ultimately a sign that it was time for a different approach.
 
+![pasted-image-20251223063337.png](img/pasted-image-20251223063337.png)
+
 ---
 
 ## The Game-Changer — Thin Clients
 
 The breakthrough arrived almost by accident. While exploring a local PC parts market, I came across something intriguing: thin clients. These tiny, efficient machines were built for light workloads and minimal power consumption. Where my desktop idled at around 45 watts, a thin client under load consumed only 10 to 20 watts. It was perfect. I bought one, installed Linux and Docker, migrated my services… and the results were astonishing. My UPS backup time shot up from five minutes to almost **two hours**, and everything ran quieter, cooler, and far more efficiently. Just like that, my home lab evolved into something truly practical.
+
+![pasted-image-20251223063442.png](img/pasted-image-20251223063442.png)
 
 ---
 
