@@ -1,10 +1,8 @@
 ---
-title: Build a Low-Power Home Server Without Breaking the Bank!
+title: My First Ever Homelab Journey
 date: 2025-11-07
 draft: false
 ---
-
-# A Bit of History — My Home Lab Journey
 
 My home lab journey began in **January 2025**, almost a year before writing this. I had always been fascinated by home servers and the idea of running my own services, but it wasn’t until then that I finally decided to act on it. I didn’t want to jump straight into buying expensive hardware only to let it gather dust, so I followed **Techno Tim’s** advice and started with what I already owned: a desktop PC and a laptop. That simple beginning was the first step into a surprisingly deep rabbit hole.
 
@@ -42,15 +40,4 @@ The breakthrough arrived almost by accident. While exploring a local PC parts ma
 
 ## Where Things Stand Today
 
-After nearly a year of experimenting, breaking things, learning from mistakes, and upgrading piece by piece, I’ve now built a home lab that feels genuinely reliable. It runs on low-power hardware designed for uptime, survives unexpected outages, supports secure remote access, and doesn’t terrorize my electricity bill. And the really exciting part? This was only the journey through hardware. Networking, reverse proxies, SSL certificates, free dynamic domains, automation—all of that was still ahead of me, each step introducing a new lesson and a new level of control over my digital world.
-
----
-
-## What’s Coming Next?
-
-In the sections that follow, I’ll walk through everything I discovered along the way: how to choose home lab hardware that makes sense, how to manage power and uptime without going broke, how to secure remote access properly, and how to design a smart, scalable home server setup. If you’re ready for the ride, grab a snack—because the adventure is only just beginning. 🧑‍💻🌍
-
----
-
-
-**⚠️ Work in Progress — Cool Stuff Coming Soon!**
+After nearly a year of experimenting, breaking things, learning from mistakes, and upgrading piece by piece, I’ve now built a home lab that feels genuinely reliable. It runs on low-power hardware designed for uptime, survives unexpected outages, supports secure remote access, and doesn’t terrorize my electricity bill. And the really exciting part? This was only the journey through hardware. Networking, reverse proxies, SSL certificates, free dynamic domains, automation—all of that was still ahead of me, each step introducing a new lesson and a new level of control over my digital world. I will go over these in a different article. But for now, This is just the start!
