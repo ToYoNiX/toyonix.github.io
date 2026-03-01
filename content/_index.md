@@ -1,5 +1,9 @@
 I’m Assem, a final-year Computer Science student and backend engineer passionate about DevOps, Linux, and open-source technologies. I enjoy building efficient systems, exploring new tools, and contributing to others’ work on GitHub and similar platforms.
 
+- View Projects
+- Hire Me
+- Download CV
+
 ## What I Can Do
 
 {{< cards section="services" >}}
@@ -55,7 +59,7 @@ I believe strong engineering is not only about writing code, but also about clea
   <h2 class="text-2xl font-bold mb-2">Let's Build Something Together</h2>
   <p class="text-neutral-500 dark:text-neutral-400 mb-6">Open to work, freelance projects, and collaborations. I respond fast on WhatsApp.</p>
   <div class="flex gap-4 flex-wrap justify-center">
-    <a href="https://wa.me/+201278785473" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
+    <a href="https://web.whatsapp.com/send?phone=201278785473" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
       💬 Message me on WhatsApp
     </a>
     <a href="https://github.com/ToYoNiX" target="_blank" class="border border-neutral-400 hover:border-primary-400 text-neutral-300 font-semibold px-6 py-3 rounded-xl transition-colors">
