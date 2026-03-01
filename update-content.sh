@@ -2,7 +2,7 @@
 #
 
 # Remove Old Content
-rm -rf ./assets ./content
+rm -rf ./static/img ./content
 
 # Sync Content
 python3 ./obsidian_sync.py

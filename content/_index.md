@@ -27,20 +27,17 @@ I absolutely LOVE structure!
 
 ## Beyond the Code
 
-<div class="flex gap-6 items-center my-6 not-prose">
-  <div class="flex-1">Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.</div>
-  <img src="/img/pasted-image-20260301201437.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
-</div>
+- Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.
 
-<div class="flex gap-6 items-center my-6 not-prose">
-  <div class="flex-1">Represented my university at multiple events, delivering technical presentations and public talks.</div>
-  <img src="/img/pasted-image-20260301201157.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
-</div>
+![pasted-image-20260301201437.png](img/pasted-image-20260301201437.png)
 
-<div class="flex gap-6 items-center my-6 not-prose">
-  <div class="flex-1">Mentored students in programming fundamentals and competitive problem-solving, helping them strengthen their technical foundation.</div>
-  <img src="/img/pasted-image-20260301195721.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
-</div>
+- Represented my university at multiple events, delivering technical presentations and public talks. 
+
+![pasted-image-20260301201157.png](img/pasted-image-20260301201157.png)
+
+- Mentored students in programming fundamentals and competitive problem-solving, helping them strengthen their technical foundation.
+
+![pasted-image-20260301195721.png](img/pasted-image-20260301195721.png)
 
 I believe strong engineering is not only about writing code, but also about clear communication, leadership, and knowledge sharing.
 
@@ -58,15 +55,5 @@ I believe strong engineering is not only about writing code, but also about clea
 
 **Tools & Workflow** — Git · Vim · VS Code · Obsidian · Zettelkasten
 
-<div class="flex flex-col items-center text-center my-12 not-prose">
-  <h2 class="text-2xl font-bold mb-2">Let's Build Something Together</h2>
-  <p class="text-neutral-500 dark:text-neutral-400 mb-6">Open to work, freelance projects, and collaborations. I respond fast on WhatsApp.</p>
-  <div class="flex gap-4 flex-wrap justify-center">
-    <a href="https://wa.me/+201278785473" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
-      💬 Message me on WhatsApp
-    </a>
-    <a href="https://github.com/ToYoNiX" target="_blank" class="border border-neutral-400 hover:border-primary-400 text-neutral-300 font-semibold px-6 py-3 rounded-xl transition-colors">
-      View GitHub
-    </a>
-  </div>
-</div>
+## Call To Action
+
