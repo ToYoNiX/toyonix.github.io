@@ -27,8 +27,6 @@ I absolutely LOVE structure!
 
 ## Beyond the Code
 
-## Beyond the Code
-
 <div class="flex gap-6 items-center my-6 not-prose">
   <div class="flex-1">Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.</div>
   <img src="img/pasted-image-20260301201437.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
