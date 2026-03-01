@@ -55,5 +55,15 @@ I believe strong engineering is not only about writing code, but also about clea
 
 **Tools & Workflow** — Git · Vim · VS Code · Obsidian · Zettelkasten
 
-## Call To Action
-
+<div class="flex flex-col items-center text-center my-12 not-prose">
+  <h2 class="text-2xl font-bold mb-2">Let's Build Something Together</h2>
+  <p class="text-neutral-500 dark:text-neutral-400 mb-6">Open to work, freelance projects, and collaborations. I respond fast on WhatsApp.</p>
+  <div class="flex gap-4 flex-wrap justify-center">
+    <a href="https://wa.me/+201278785473" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
+      💬 Message me on WhatsApp
+    </a>
+    <a href="https://github.com/ToYoNiX" target="_blank" class="border border-neutral-400 hover:border-primary-400 text-neutral-300 font-semibold px-6 py-3 rounded-xl transition-colors">
+      View GitHub
+    </a>
+  </div>
+</div>
