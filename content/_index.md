@@ -29,17 +29,17 @@ I absolutely LOVE structure!
 
 <div class="flex gap-6 items-center my-6 not-prose">
   <div class="flex-1">Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.</div>
-  <img src="/assets/img/pasted-image-20260301201437.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
+  <img src="/img/pasted-image-20260301201437.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
 </div>
 
 <div class="flex gap-6 items-center my-6 not-prose">
   <div class="flex-1">Represented my university at multiple events, delivering technical presentations and public talks.</div>
-  <img src="/assets/img/pasted-image-20260301201157.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
+  <img src="/img/pasted-image-20260301201157.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
 </div>
 
 <div class="flex gap-6 items-center my-6 not-prose">
   <div class="flex-1">Mentored students in programming fundamentals and competitive problem-solving, helping them strengthen their technical foundation.</div>
-  <img src="/assets/img/pasted-image-20260301195721.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
+  <img src="/img/pasted-image-20260301195721.png" class="rounded-lg object-cover h-40 w-48 flex-shrink-0">
 </div>
 
 I believe strong engineering is not only about writing code, but also about clear communication, leadership, and knowledge sharing.
