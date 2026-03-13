@@ -33,7 +33,7 @@ def ensure_dir(path):
 def convert_embed(filename):
     # Remove resizing or alias (e.g. file.png|200 → file.png)
     clean = filename.split("|")[0]
-    return f"![{clean}](img/{clean})"  # Edit if your Hugo path differs
+    return f"![{clean}](/img/{clean})"  # Edit if your Hugo path differs
 
 def normalize_filename(filename):
     name, ext = os.path.splitext(filename)
