@@ -1,5 +1,9 @@
 I’m Assem, a final-year Computer Science student and backend engineer passionate about DevOps, Linux, and open-source technologies. I enjoy building efficient systems, exploring new tools, and contributing to others’ work on GitHub and similar platforms.
 
+- View Projects
+- Hire Me
+- Download CV
+
 ## What I Can Do
 
 {{< cards section="services" >}}
@@ -25,15 +29,15 @@ I absolutely LOVE structure!
 
 - Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.
 
-![pasted-image-20260301201437.png](img/pasted-image-20260301201437.png)
+![pasted-image-20260301201437.png](/img/pasted-image-20260301201437.png)
 
 - Represented my university at multiple events, delivering technical presentations and public talks. 
 
-![pasted-image-20260301201157.png](img/pasted-image-20260301201157.png)
+![pasted-image-20260301201157.png](/img/pasted-image-20260301201157.png)
 
 - Mentored students in programming fundamentals and competitive problem-solving, helping them strengthen their technical foundation.
 
-![pasted-image-20260301195721.png](img/pasted-image-20260301195721.png)
+![pasted-image-20260301195721.png](/img/pasted-image-20260301195721.png)
 
 I believe strong engineering is not only about writing code, but also about clear communication, leadership, and knowledge sharing.
 
