@@ -47,7 +47,10 @@ export default async function Home() {
         <Lead>{profile.intro}</Lead>
         <ButtonRow>
           {notes ? <LinkButton href={appHref("notes")}>Read my notes</LinkButton> : null}
-          <LinkButton href="#contact" variant={notes ? "secondary" : "primary"}>
+          <LinkButton href={links.cv} variant={notes ? "secondary" : "primary"}>
+            Download CV
+          </LinkButton>
+          <LinkButton href="#contact" variant="secondary">
             Get in touch
           </LinkButton>
           <LinkButton href={links.github} variant="ghost">
@@ -169,6 +172,9 @@ export default async function Home() {
           <LinkButton href={links.whatsapp}>Message me on WhatsApp</LinkButton>
           <LinkButton href={links.email} variant="secondary">
             Email
+          </LinkButton>
+          <LinkButton href={links.cv} variant="secondary">
+            CV (PDF)
           </LinkButton>
           <LinkButton href={links.linkedin} variant="secondary">
             LinkedIn ↗

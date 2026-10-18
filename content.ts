@@ -12,8 +12,12 @@ export const profile = {
 export const links = {
   github: "https://github.com/ToYoNiX",
   linkedin: "https://linkedin.com/in/toyonix",
-  email: "mailto:toyonix.assemmohamed.2005@gmail.com",
-  whatsapp: "https://wa.me/201278785473",
+  email: "mailto:assemmohamed.toyonix@gmail.com",
+  // A WhatsApp username link: on phones it opens the app; on computers WhatsApp's page offers
+  // WhatsApp Desktop or WhatsApp Web. Keep the username key off, or visitors get asked for it.
+  whatsapp: "https://wa.me/toyonix",
+  // public/assem-mohamed-cv.pdf: replace the file to update the CV.
+  cv: "/assem-mohamed-cv.pdf",
 };
 
 export const services = [
