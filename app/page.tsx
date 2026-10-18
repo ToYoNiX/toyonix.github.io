@@ -22,6 +22,8 @@ import {
 } from "@toyonix/web-kit/react";
 import type { AppStatus } from "@toyonix/web-kit/registry";
 import { beyondCode, howIWork, links, profile, projects, services, stack } from "@/content";
+import { LatestNotes } from "@/components/LatestNotes";
+import { getNotesSnapshot } from "@/lib/notes-feed";
 import { getRegistry } from "@/lib/registry";
 
 const STATUS_TONE: Record<AppStatus, "success" | "warning" | "neutral"> = {
@@ -31,7 +33,7 @@ const STATUS_TONE: Record<AppStatus, "success" | "warning" | "neutral"> = {
 };
 
 export default async function Home() {
-  const registry = await getRegistry();
+  const [registry, notesSnapshot] = await Promise.all([getRegistry(), getNotesSnapshot()]);
   const apps = registry.apps.filter((app) => app.status !== "archived");
   const notes = apps.find((app) => app.id === "notes");
 
@@ -53,6 +55,9 @@ export default async function Home() {
           </LinkButton>
         </ButtonRow>
       </section>
+
+      {/* Refreshed in the browser from /notes/feed.json: new notes appear without redeploying root. */}
+      <LatestNotes snapshot={notesSnapshot} />
 
       {apps.length > 0 ? (
         <Section id="apps">

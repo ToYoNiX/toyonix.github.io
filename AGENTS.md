@@ -91,6 +91,11 @@ in every toyonix app.
 
 - **Purpose:** landing page + portfolio for Assem Mohamed, and the front door to every app.
 - **Content:** all landing copy is in `content.ts`; `app/page.tsx` is layout only.
+- **Latest notes:** `components/LatestNotes.tsx` reads `/notes/feed.json` (JSON Feed, published
+  by the notes app) **in the browser**, starting from a snapshot taken at build time
+  (`lib/notes-feed.ts`). Publishing a note never requires redeploying root. The section hides
+  itself when there are no notes. Pages caches files up to ~10 minutes, so new notes can take
+  that long to appear.
 - **Registry:** `lib/registry.ts` builds it at build time with `buildRegistry()` from
   `@toyonix/web-kit/registry/build`: public repos owned by `ToYoNiX` with the `toyonix-site`
   topic, using each repo's `"toyonix"` package.json field. `app/registry.json/route.ts`
