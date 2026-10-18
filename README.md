@@ -14,3 +14,7 @@ npm run check                                 # format, lint, typecheck, build
 ```
 
 The previous Hugo site lives on the `gh-pages` branch.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
