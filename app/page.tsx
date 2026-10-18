@@ -24,6 +24,7 @@ import {
 import type { AppStatus } from "@toyonix/web-kit/registry";
 import { beyondCode, howIWork, links, profile, projects, services, stack } from "@/content";
 import { LatestNotes } from "@/components/LatestNotes";
+import { Portrait } from "@/components/Portrait";
 import { getNotesSnapshot } from "@/lib/notes-feed";
 import { getRegistry } from "@/lib/registry";
 
@@ -40,24 +41,28 @@ export default async function Home() {
 
   return (
     <Container>
-      <section className="pt-24 pb-16">
-        <Eyebrow>{profile.eyebrow}</Eyebrow>
-        <Display className="max-w-[16ch]">
-          I build <em>backends</em>, servers, and the systems around them.
-        </Display>
-        <Lead>{profile.intro}</Lead>
-        <ButtonRow>
-          {notes ? <LinkButton href={appHref("notes")}>Read my notes</LinkButton> : null}
-          <LinkButton href={links.cv} variant={notes ? "secondary" : "primary"}>
-            Download CV
-          </LinkButton>
-          <LinkButton href="#contact" variant="secondary">
-            Get in touch
-          </LinkButton>
-          <LinkButton href={links.github} variant="ghost">
-            GitHub ↗
-          </LinkButton>
-        </ButtonRow>
+      <section className="grid items-center gap-x-16 gap-y-12 pt-20 pb-16 lg:grid-cols-[minmax(0,1fr)_340px] lg:pt-24">
+        <div>
+          <Eyebrow>{profile.eyebrow}</Eyebrow>
+          <Display className="max-w-[16ch]">
+            I build <em>backends</em>, servers, and the systems around them.
+          </Display>
+          <Lead>{profile.intro}</Lead>
+          <ButtonRow>
+            {notes ? <LinkButton href={appHref("notes")}>Read my notes</LinkButton> : null}
+            <LinkButton href={links.cv} variant={notes ? "secondary" : "primary"}>
+              Download CV
+            </LinkButton>
+            <LinkButton href="#contact" variant="secondary">
+              Get in touch
+            </LinkButton>
+            <LinkButton href={links.github} variant="ghost">
+              GitHub ↗
+            </LinkButton>
+          </ButtonRow>
+        </div>
+        {/* Above the headline on small screens, beside it on large ones. */}
+        <Portrait className="order-first ml-6 max-w-[260px] lg:order-none lg:ml-0 lg:max-w-none" />
       </section>
 
       {/* Refreshed in the browser from /notes/feed.json: new notes appear without redeploying root. */}

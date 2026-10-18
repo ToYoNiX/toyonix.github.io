@@ -4,6 +4,8 @@
 
 export const profile = {
   name: "Assem Mohamed",
+  location: "Giza, Egypt",
+  photo: "/images/assem.webp",
   eyebrow: "Assem Mohamed · backend · DevOps · Linux",
   intro:
     "I'm Assem, a backend engineer at Broker Times. I build scalable APIs and backend services, ship them on Linux with Docker and Nginx, and care about clean architecture and deployments that don't break. Outside work I run a homelab, explore new tools, and contribute to open source.",
