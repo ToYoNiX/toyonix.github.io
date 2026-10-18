@@ -36,21 +36,6 @@ export const services = [
     description: "Production-grade Linux servers with Docker and open-source tools.",
     items: ["Dockerizing applications", "VPS and server setup", "Nginx reverse proxies", "CI/CD pipelines"],
   },
-  {
-    title: "Static Websites",
-    description: "Fast, SEO-friendly sites for developers, startups, and creators.",
-    items: ["Portfolios and landing pages", "Blogs", "Performance tuning", "GitHub Pages / Netlify"],
-  },
-  {
-    title: "Technical Mentorship",
-    description: "Helping students and junior developers master backend engineering and Linux.",
-    items: [
-      "Node.js / Express tutoring",
-      "Linux and Docker workshops",
-      "Code reviews",
-      "University sessions",
-    ],
-  },
 ];
 
 export const projects = [
