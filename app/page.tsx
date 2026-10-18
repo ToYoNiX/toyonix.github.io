@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { appHref } from "@toyonix/web-kit";
 import {
   Badge,
@@ -156,10 +157,21 @@ export default async function Home() {
 
       <Section>
         <SectionLabel>Beyond the code</SectionLabel>
-        <ul className="m-0 grid max-w-[68ch] list-none gap-4 p-0">
-          {beyondCode.map((line) => (
-            <li key={line} className="border-l-[6px] border-accent pl-5 font-serif text-xl">
-              {line}
+        <ul className="m-0 grid max-w-[880px] list-none gap-10 p-0">
+          {beyondCode.map((item, index) => (
+            <li key={item.image} className="grid items-center gap-6 sm:grid-cols-[240px_1fr]">
+              <Image
+                src={item.image}
+                alt={item.alt}
+                width={item.width}
+                height={item.height}
+                sizes="240px"
+                className={`aspect-[4/3] w-full border-[2.5px] border-border object-cover shadow-tx ${
+                  index % 2 === 0 ? "-rotate-[1.2deg]" : "rotate-[1deg]"
+                }`}
+                style={{ objectPosition: item.position }}
+              />
+              <p className="m-0 border-l-[6px] border-accent pl-5 font-serif text-xl">{item.text}</p>
             </li>
           ))}
         </ul>

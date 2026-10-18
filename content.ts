@@ -72,7 +72,29 @@ export const stack = [
 ];
 
 export const beyondCode = [
-  "Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.",
-  "Represented my university at multiple events, delivering technical presentations and public talks.",
-  "Mentored students in programming fundamentals and competitive problem-solving.",
+  {
+    text: "Led and coordinated technical teams through university initiatives and student activities, organizing workshops and collaborative projects.",
+    image: "/images/beyond/leading-a-session.webp",
+    alt: "Assem presenting at a GDG on Campus session, next to a slide introducing him as GDGoC Organizer",
+    width: 900,
+    height: 1200,
+    // Portrait photo shown in a 4:3 frame: keep Assem (right side) in view, not the projector.
+    position: "75% 45%",
+  },
+  {
+    text: "Represented my university at multiple events, delivering technical presentations and public talks.",
+    image: "/images/beyond/university-team.webp",
+    alt: "Assem with his university team and faculty at a technical exhibition",
+    width: 1200,
+    height: 800,
+    position: "50% 50%",
+  },
+  {
+    text: "Mentored students in programming fundamentals and competitive problem-solving.",
+    image: "/images/beyond/mentoring.webp",
+    alt: "Assem helping a student at a laptop during a hands-on session",
+    width: 1200,
+    height: 900,
+    position: "55% 50%",
+  },
 ];
